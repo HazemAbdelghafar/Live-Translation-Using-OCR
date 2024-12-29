@@ -1,27 +1,22 @@
-# Live OCR Project
+# Live Translation Project
 
 This project utilizes the laptop camera for live feed to perform Optical Character Recognition (OCR) on detected text, translate it, and convert the translation to speech.
 
 ## Project Structure
 
 ```
-live-ocr-project
-├── src
-│   ├── live_ocr.py          # Main script for live feed and processing
-│   ├── camera_feed.py       # Handles camera feed and image capture
-│   ├── ocr.py               # Functions for Optical Character Recognition
-│   ├── translation.py        # Functions for translating extracted text
-│   └── text_to_speech.py    # Functions for converting text to speech
-├── requirements.txt          # Lists project dependencies
-└── README.md                 # Project documentation
+live-translation-project
+├── live_translation.py      # Main script for live feed and processing
+├── requirements.txt         # Lists project dependencies
+└── README.md                # Project documentation
 ```
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd live-ocr-project
+   git clone https://github.com/HazemAbdelghafar/Live-Translation-Using-OCR.git
+   cd Live-Translation-Using-OCR
    ```
 
 2. Install the required dependencies:
@@ -33,9 +28,9 @@ live-ocr-project
 
 ## Usage Guidelines
 
-1. Run the main script to start the live OCR process:
+1. Run the main script to start the live translation process:
    ```
-   python src/live_ocr.py
+   python live_translation.py
    ```
 
 2. The application will access your laptop's camera, capture frames, and process them for text recognition, translation, and speech output.
@@ -45,7 +40,8 @@ live-ocr-project
 - OpenCV
 - pytesseract
 - gTTS
-- Translation library (e.g., googletrans)
+- pygame
+- translate
 
 ## Contributing
 
