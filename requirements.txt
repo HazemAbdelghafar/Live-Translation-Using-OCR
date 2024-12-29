@@ -1,0 +1,5 @@
+gTTS==2.5.4
+pygame==2.6.1
+translate==3.6.1
+pytesseract==0.3.13
+opencv-python==4.10.0.84
